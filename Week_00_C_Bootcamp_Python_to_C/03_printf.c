@@ -28,6 +28,24 @@ int main(){
 
     printf(" \n");
 
+    int a_ = 10;
+    float f = 1.567;
+    char ch[] = "A";
+
+    printf("Integer variable\'s vlaue is: %d\n",a_); // %d for integers
+    printf("Float variable\'s vlaue is: %f\n",f); // %f for floats
+    printf("Character variable\'s vlaue is: %s\n",ch); // %s for strings
+
+    printf(" \n");
+
+    float e = 0.00001;
+    float E = 100000;
+    printf("%f Float  scientific notation: %e\n",e, e); // %e for scientific notation
+    printf("%f Float in scientific notation: %E\n",E, E); // %E for scientific
+
+
+
+    printf(" \n");
 
     // Width and Precision Formatting
     printf("3. width and Precision Formatting\n");
@@ -65,7 +83,7 @@ int main(){
     printf(" \n");
 
     int x= 255;
-    printf("Hex: 0x%x\n",x);
+    printf("Hex: 0x%X\n",x);
 
     printf(" \n");
 
