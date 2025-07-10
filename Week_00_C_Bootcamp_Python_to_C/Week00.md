@@ -28,7 +28,7 @@ Errors|Runtime/exceptions|compile-time + runtime(no exceptions)
 #include <stdio.h>   // Preprocessor directive for I/O
 
 int main() {         // Entry point
-    printf("Hello, C world!\\n");  // Output
+    printf("Hello, C world!\n");  // Output
     return 0;        // Exit status
 }
 ```

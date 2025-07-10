@@ -12,7 +12,7 @@ int main(){
     printf(" \n");
 
     printf("Hello, World!\n"); // Output a string
-    printf("Hello, %s\n", "World"); // Output a formatted string 
+    printf("Hello, %s\n", "World!"); // Output a formatted string 
     
     
     printf(" \n");
@@ -21,7 +21,7 @@ int main(){
     printf("2. Format Specifiers\n");
     printf(" \n");
 
-    char name[] = "Gamma";
+    char *name = "Gamma";
     int age = 19;
 
     printf("Hello %s, you are %d years old. \n", name, age);
@@ -52,7 +52,9 @@ int main(){
     printf("%-10s\n", "Hi"); // "Hi        "
     printf("%10s\n", "Hi");  // "        Hi"
     printf("%-10d\n", 42);   // "42        "
-    printf("%10d\n", 42);    // "        42"   
+    printf("%10d\n", 42);    // "        42"  
+    printf("%010d\n", 42);   // "0000000042" (10 digits, padded with zeros)
+
 
 
     printf(" \n");
@@ -63,7 +65,7 @@ int main(){
     printf(" \n");
 
     int x= 255;
-    printf("Hex: 0x%X\n",x);
+    printf("Hex: 0x%x\n",x);
 
     printf(" \n");
 
@@ -72,7 +74,7 @@ int main(){
     printf(" \n");
 
     int a= 43;
-    printf("Address of a: %p\n",(void*)&a); // %p for pointer address
+    printf("Address of %d: %p\n",a, (void*)&a); // %p for pointer address
     printf(" \n");
 
     return 0;
