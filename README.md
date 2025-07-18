@@ -188,7 +188,35 @@ Welcome to the Miracle C Programming Course — custom-built for a system-savvy,
 
 ---
 
-### 🌐 Week 6: Networking and Low-level Systems
+### 📁 Week 6: File I/O and Data Structures (1 Hour)
+
+**Topics:**
+- [ ] File handling (`fopen`, `fclose`, `fread`, `fwrite`)
+- [ ] Text vs binary file operations
+- [ ] File positioning (`fseek`, `ftell`)
+- [ ] Error handling in file operations
+- [ ] Linked lists implementation
+- [ ] Stacks and queues
+- [ ] Basic tree structures
+
+**Subtopics:**
+- [ ] File modes (`r`, `w`, `a`, `rb`, `wb`)
+- [ ] Buffer management
+- [ ] CSV file parsing
+- [ ] Binary data serialization
+- [ ] Dynamic data structure memory management
+- [ ] Iterator patterns for data structures
+
+**Mini Projects:**
+- [ ] File-based contact manager
+- [ ] CSV data processor
+- [ ] Simple database simulator
+- [ ] Log file analyzer
+
+
+---
+
+### 🌐 Extraaas: Networking and Low-level Systems
 
 **Topics:**
 - Bit-level data structures
