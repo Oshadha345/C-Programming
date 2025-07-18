@@ -17,20 +17,64 @@ Welcome to the Miracle C Programming Course — custom-built for a system-savvy,
 
 > Designed to evolve with you — from foundational C to memory hacking, systems programming, and networking.
 
+### 🏁 Week 00: C Bootcamp - Python to C ✅
+
+**Topics Covered:**
+- [x] Basic C program structure (`#include`, `main()`)
+- [x] Printf formatting and format specifiers
+- [x] Escape sequences
+- [x] Input/output with `scanf()`
+- [x] Variable declarations and basic data types
+- [x] Width, precision, and alignment formatting
+
+**Subtopics:**
+- [x] Preprocessor directives (`#include <stdio.h>`)
+- [x] Entry point function (`int main()`)
+- [x] Format specifiers (`%d`, `%f`, `%c`, `%s`, `%x`, `%p`)
+- [x] Escape sequences (`\n`, `\t`, `\\`, `\'`, `\"`, `\r`, `\f`, `\b`)
+- [x] Printf width and precision (`%10.2f`, `%-10s`, `%05d`)
+- [x] Flag formatting (`+`, `-`, `0`, space padding)
+- [x] User input with `scanf()` and address operator (`&`)
+- [x] Basic arithmetic operations
+  
+**Files Created:**
+- [x] [`01_hello.c`](Week_00_C_Bootcamp_Python_to_C/01_hello.c) - Hello World program
+- [x] [`02_square_number.c`](Week_00_C_Bootcamp_Python_to_C/02_square_number.c) - User input and calculations
+- [x] [`03_printf.c`](Week_00_C_Bootcamp_Python_to_C/03_printf.c) - Printf formatting examples
+- [x] [`04_format.c`](Week_00_C_Bootcamp_Python_to_C/04_format.c) - Format specifier demonstrations
+- [x] [`05_format_specifier.c`](Week_00_C_Bootcamp_Python_to_C/05_format_specifier.c) - Advanced formatting
+- [x] [`escape_sequence.c`](Week_00_C_Bootcamp_Python_to_C/escape_sequnce.c) - Escape sequence examples
+- [x] [`examples.c`](Week_00_C_Bootcamp_Python_to_C/examples.c) - Character and string examples
+- [x] [`exercise_01.c`](Week_00_C_Bootcamp_Python_to_C/exercise_01.c) - Data type demonstrations
+- [x] [`exercise_02.c`](Week_00_C_Bootcamp_Python_to_C/exercise_02.c) - Table formatting
+
+---
+
 ### ✅ Week 1: Variables, Memory, and the Hidden Machinery of C
 
 **Topics:**
-- Variables as memory labels
-- Data types & binary storage
-- Stack vs Heap
-- Memory layout
-- Compilation steps
+- [ ] Data types deep dive (`int`, `float`, `double`, `char`, `void`)
+- [ ] Type modifiers (`signed`, `unsigned`, `short`, `long`)
+- [ ] Variables as memory labels
+- [ ] Binary storage and representation
+- [ ] Stack vs Heap introduction
+- [ ] Memory layout visualization
+- [ ] Compilation steps (`gcc` flags)
+
+**Subtopics:**
+- [ ] Sizeof operator and memory footprint
+- [ ] Type casting and implicit conversions
+- [ ] Constants (`const`, `#define`)
+- [ ] Variable scope (local, global, static)
+- [ ] Memory addresses and the `&` operator
+- [ ] Hexadecimal representation
+- [ ] Endianness concepts
 
 **Mini Projects:**
-- [x] Variable size & address explorer
-- [x] Binary printer
-- [ ] Memory visualizer (CLI)
-- [ ] Truth Table Generator
+- [ ] Variable size & address explorer
+- [ ] Binary printer utility
+- [ ] Memory layout visualizer (CLI)
+- [ ] Type conversion calculator
 
 ---
 
