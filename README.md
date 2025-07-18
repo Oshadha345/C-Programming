@@ -108,14 +108,26 @@ Welcome to the Miracle C Programming Course — custom-built for a system-savvy,
 ### 💾 Week 3: Arrays, Strings, and Matrices
 
 **Topics:**
-- 1D and 2D arrays
-- String manipulation (`char[]`)
-- Pointer-based matrix manipulation
+- [ ] 1D arrays declaration and initialization
+- [ ] 2D arrays and multi-dimensional arrays
+- [ ] String manipulation (`char[]` arrays)
+- [ ] String functions (`strlen`, `strcpy`, `strcmp`)
+- [ ] Array bounds and memory safety
+- [ ] Character arrays vs string literals
+
+**Subtopics:**
+- [ ] Array indexing and traversal
+- [ ] String concatenation techniques
+- [ ] Null termination in strings
+- [ ] Array passing to functions
+- [ ] Matrix operations (addition, multiplication)
+- [ ] Dynamic string handling
 
 **Mini Projects:**
-- [ ] Matrix calculator
+- [ ] Matrix calculator (add, multiply, transpose)
 - [ ] String reversal & tokenizer
-- [ ] Histogram grapher (with ASCII)
+- [ ] Histogram grapher (ASCII art)
+- [ ] Text statistics analyzer
 
 ---
 
