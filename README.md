@@ -60,7 +60,7 @@
 </details>
 
 <details>
-<summary><strong>⚙️ Week 1: Variables, Memory, and the Hidden Machinery of C</strong></summary>
+<summary><strong>⚙️ Week 1: Variables, Memory, and the Hidden Machinery of C (1 Hour)</strong></summary>
 
 **Topics:**
 - [ ] Data types deep dive (`int`, `float`, `double`, `char`, `void`)
@@ -70,6 +70,16 @@
 - [ ] Stack vs Heap introduction
 - [ ] Memory layout visualization
 - [ ] Compilation steps (`gcc` flags)
+  
+**Subtopics:**
+- [ ] Sizeof operator and memory footprint
+- [ ] Type casting and implicit conversions
+- [ ] Constants (`const`, `#define`)
+- [ ] Variable scope (local, global, static)
+- [ ] Memory addresses and the `&` operator
+- [ ] Hexadecimal representation
+- [ ] Endianness concepts
+
 
 **Mini Projects:**
 - [ ] Variable size & address explorer
@@ -80,7 +90,7 @@
 </details>
 
 <details>
-<summary><strong>🔀 Week 2: Control Flow and Logic in Action</strong></summary>
+<summary><strong>🔀 Week 2: Control Flow and Logic in Action (1 Hour)</strong></summary>
 
 **Topics:**
 - [ ] Conditional statements (`if`, `else if`, `else`)
@@ -89,6 +99,14 @@
 - [ ] `break` and `continue` statements
 - [ ] Logic operators (`&&`, `||`, `!`)
 - [ ] Ternary operator (`? :`)
+
+**Subtopics:**
+- [ ] Nested conditionals
+- [ ] Loop optimization techniques
+- [ ] Short-circuit evaluation
+- [ ] Truth tables in C
+- [ ] Bitwise logical operations
+- [ ] Flow control best practices
 
 **Mini Projects:**
 - [ ] CLI Rock-Paper-Scissors with flowchart
@@ -99,7 +117,7 @@
 </details>
 
 <details>
-<summary><strong>💾 Week 3: Arrays, Strings, and Matrices</strong></summary>
+<summary><strong>💾 Week 3: Arrays, Strings, and Matrices (1 Hour)</strong></summary>
 
 **Topics:**
 - [ ] 1D arrays declaration and initialization
@@ -108,6 +126,15 @@
 - [ ] String functions (`strlen`, `strcpy`, `strcmp`)
 - [ ] Array bounds and memory safety
 - [ ] Character arrays vs string literals
+
+**Subtopics:**
+- [ ] Array indexing and traversal
+- [ ] String concatenation techniques
+- [ ] Null termination in strings
+- [ ] Array passing to functions
+- [ ] Matrix operations (addition, multiplication)
+- [ ] Dynamic string handling
+
 
 **Mini Projects:**
 - [ ] Matrix calculator (add, multiply, transpose)
@@ -118,7 +145,7 @@
 </details>
 
 <details>
-<summary><strong>🔄 Week 4: Functions, Stack Frames, & Recursion</strong></summary>
+<summary><strong>🔄 Week 4: Functions, Stack Frames, & Recursion (1 Hour)</strong></summary>
 
 **Topics:**
 - [ ] Function declaration and definition
@@ -129,6 +156,15 @@
 - [ ] Stack frames visualization
 - [ ] Local vs global scope in functions
 
+**Subtopics:**
+- [ ] Function overloading limitations
+- [ ] Inline functions
+- [ ] Static functions
+- [ ] Variadic functions (`...`)
+- [ ] Function pointers introduction
+- [ ] Tail recursion optimization
+
+
 **Mini Projects:**
 - [ ] Recursive Fibonacci + memory trace
 - [ ] Call Stack Simulator
@@ -138,7 +174,7 @@
 </details>
 
 <details>
-<summary><strong>🧠 Week 5: Pointers, Dynamic Memory, & Structs</strong></summary>
+<summary><strong>🧠 Week 5: Pointers, Dynamic Memory, & Structs (1.5 Hours)</strong></summary>
 
 **Topics:**
 - [ ] Pointer basics and syntax (`*`, `&`)
@@ -149,6 +185,16 @@
 - [ ] Structures (`struct`) definition and usage
 - [ ] Arrays of structures
 
+**Subtopics:**
+- [ ] Null pointers and safety checks
+- [ ] Double pointers (`**`)
+- [ ] Pointer to pointer concepts
+- [ ] Structure padding and alignment
+- [ ] Typedef for cleaner code
+- [ ] Union types
+- [ ] Bit fields in structures
+
+
 **Mini Projects:**
 - [ ] Custom dynamic array implementation
 - [ ] Memory allocator clone
@@ -158,7 +204,7 @@
 </details>
 
 <details>
-<summary><strong>📁 Week 6: File I/O and Data Structures</strong></summary>
+<summary><strong>📁 Week 6: File I/O and Data Structures (1 Hour)</strong></summary>
 
 **Topics:**
 - [ ] File handling (`fopen`, `fclose`, `fread`, `fwrite`)
@@ -167,6 +213,15 @@
 - [ ] Error handling in file operations
 - [ ] Linked lists implementation
 - [ ] Stacks and queues
+
+**Subtopics:**
+- [ ] File modes (`r`, `w`, `a`, `rb`, `wb`)
+- [ ] Buffer management
+- [ ] CSV file parsing
+- [ ] Binary data serialization
+- [ ] Dynamic data structure memory management
+- [ ] Iterator patterns for data structures
+
 
 **Mini Projects:**
 - [ ] File-based contact manager
@@ -177,7 +232,7 @@
 </details>
 
 <details>
-<summary><strong>🔨 Week 7: Build Systems and Advanced C</strong></summary>
+<summary><strong>🔨 Week 7: Build Systems and Advanced C (1 Hour)</strong></summary>
 
 **Topics:**
 - [ ] Makefile creation and usage
@@ -188,6 +243,15 @@
 - [ ] Static vs dynamic linking
 - [ ] Library creation
 
+**Subtopics:**
+- [ ] Makefile variables and rules
+- [ ] Dependency management
+- [ ] Cross-platform compilation
+- [ ] Debugging with `gdb`
+- [ ] Profiling and optimization
+- [ ] Code documentation standards
+
+
 **Mini Projects:**
 - [ ] Multi-module calculator project
 - [ ] Static library creation
@@ -197,7 +261,7 @@
 </details>
 
 <details>
-<summary><strong>🖼️ Week 8: GUI Programming with GTK</strong></summary>
+<summary><strong>🖼️ Week 8: GUI Programming with GTK (1.5 Hours) </strong></summary>
 
 **Topics:**
 - [ ] GTK+ library setup and installation
@@ -206,6 +270,15 @@
 - [ ] Event handling and callbacks
 - [ ] Layout management
 - [ ] Menu and toolbar creation
+
+**Subtopics:**
+- [ ] GTK+ project structure
+- [ ] Signal and slot connections
+- [ ] Custom drawing with Cairo
+- [ ] Threading in GUI applications
+- [ ] Resource management
+- [ ] Packaging GUI applications
+
 
 **Mini Projects:**
 - [ ] Simple text editor
@@ -234,13 +307,14 @@
 
 ## 🛠️ Tech Stack & Tools
 
-| Category          | Tool / Technology                               |
-| ----------------- | ----------------------------------------------- |
-| **Compiler**      | `GCC`                                           |
-| **Debugger**      | `GDB`                                           |
-| **Memory Tools**  | `Valgrind`                                      |
-| **Online IDEs**   | `Replit`, `Compiler Explorer`                   |
-| **Version Control**| `Git` + `GitHub`                                |
+| Tool             | Details                                           |
+| :--------------- | :------------------------------------------------ |
+| **Compiler**     | GCC (`-Wall`, `-Wextra`, `-g`, `-O2`)              |
+| **Build System** | Make                                              |
+| **Debugger**     | GDB                                               |
+| **GUI Library**  | GTK+ 3.0                                          |
+| **Version Control**| Git + GitHub                                      |
+| **IDE**          | Visual Studio Code with C/C++ extensions          |
 
 ---
 
