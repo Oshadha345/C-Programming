@@ -213,6 +213,36 @@ Welcome to the Miracle C Programming Course — custom-built for a system-savvy,
 - [ ] Simple database simulator
 - [ ] Log file analyzer
 
+---
+
+### 🔨 Week 7: Build Systems and Advanced C (1 Hour)
+
+**Topics:**
+- [ ] Makefile creation and usage
+- [ ] Multi-file projects organization
+- [ ] Header files and include guards
+- [ ] Preprocessor directives (`#define`, `#ifdef`)
+- [ ] Conditional compilation
+- [ ] Static vs dynamic linking
+- [ ] Library creation
+
+**Subtopics:**
+- [ ] Makefile variables and rules
+- [ ] Dependency management
+- [ ] Cross-platform compilation
+- [ ] Debugging with `gdb`
+- [ ] Profiling and optimization
+- [ ] Code documentation standards
+
+**Mini Projects:**
+- [ ] Multi-module calculator project
+- [ ] Static library creation
+- [ ] Build system for previous projects
+- [ ] Cross-platform utility
+
+---
+
+
 
 ---
 
