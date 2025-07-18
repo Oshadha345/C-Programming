@@ -26,15 +26,16 @@ int take_matrix(int v_matrix[3][3]) {
     }
 }
 
+
 int main() {
 
     //initialize variables
     int V_matrix[3][3];
-    int safe_count;
-    int unsafe_count;
-    int i,j,V;
+    int safe_count=0;
+    int unsafe_count=0;
+    int i_,j_,V;
 
-    i =0, j=0; // loop counters
+    i_ =0, j_=0; // loop counters
     V = 0; // voltage value
 
 
@@ -45,8 +46,8 @@ int main() {
     matrix_print(V_matrix);
 
     // analyze the voltage matrix
-    for (int i ; i < 3; i++) {
-        for (int j ; j < 3; j++) {
+    for (int i=0 ; i < 3; i++) {
+        for (int j=0 ; j < 3; j++) {
 
             V = V_matrix[i][j];
 
@@ -71,8 +72,14 @@ int main() {
             else {
                 safe_count++; // increment safe count
         }
-
+        j_++; // increment column index
             }
+
+        if (unsafe_count > 3) {
+            break; // exit if more than 3 unsafe values
+        }
+        
+        i_++; // increment row index
         }
 
     // print the counts
@@ -83,7 +90,7 @@ int main() {
 
 // jumping out of the loop at the first moment it detected s V< 0 or V> 250
 warning:
-    printf("Warning: Unsafe voltage detected at V[%d][%d] = %d\n", i+1, j+1, V);
+    printf("Warning: Unsafe voltage detected at V%d%d = %d\n", i_+1, j_+1, V);
     return 1; // exit with error code
 
 }
