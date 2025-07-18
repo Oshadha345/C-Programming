@@ -163,13 +163,27 @@ Welcome to the Miracle C Programming Course — custom-built for a system-savvy,
 ### 🧠 Week 5: Pointers, Dynamic Memory, Structs
 
 **Topics:**
-- Pointers, references
-- `malloc`, `free`, memory leaks
-- Structs & arrays of structs
+- [ ] Pointer basics and syntax (`*`, `&`)
+- [ ] Pointer arithmetic
+- [ ] Dynamic memory allocation (`malloc`, `calloc`, `realloc`)
+- [ ] Memory deallocation (`free`)
+- [ ] Memory leaks and debugging
+- [ ] Structures (`struct`) definition and usage
+- [ ] Arrays of structures
+
+**Subtopics:**
+- [ ] Null pointers and safety checks
+- [ ] Double pointers (`**`)
+- [ ] Pointer to pointer concepts
+- [ ] Structure padding and alignment
+- [ ] Typedef for cleaner code
+- [ ] Union types
+- [ ] Bit fields in structures
 
 **Mini Projects:**
-- [ ] Custom dynamic array
-- [ ] Memory allocator clone (like `malloc`)
+- [ ] Custom dynamic array implementation
+- [ ] Memory allocator clone
+- [ ] Student record management system
 - [ ] Memory leak detector
 
 ---
