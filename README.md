@@ -78,7 +78,7 @@ Welcome to the Miracle C Programming Course — custom-built for a system-savvy,
 
 ---
 
-### 🧠 Week 2: Control Flow and Logic in Action
+### 🧠 Week 2: Control Flow and Logic in Action (1 Hour)
 
 **Topics:**
 - [ ] Conditional statements (`if`, `else if`, `else`)
@@ -105,7 +105,7 @@ Welcome to the Miracle C Programming Course — custom-built for a system-savvy,
 
 ---
 
-### 💾 Week 3: Arrays, Strings, and Matrices
+### 💾 Week 3: Arrays, Strings, and Matrices (1 Hour)
 
 **Topics:**
 - [ ] 1D arrays declaration and initialization
@@ -131,7 +131,7 @@ Welcome to the Miracle C Programming Course — custom-built for a system-savvy,
 
 ---
 
-### 🧠 Week 4: Functions, Stack Frames, Recursion
+### 🧠 Week 4: Functions, Stack Frames, Recursion (1 Hour)
 
 **Topics:**
 
@@ -160,7 +160,7 @@ Welcome to the Miracle C Programming Course — custom-built for a system-savvy,
 
 ---
 
-### 🧠 Week 5: Pointers, Dynamic Memory, Structs
+### 🧠 Week 5: Pointers, Dynamic Memory, Structs (1.5 Hours)
 
 **Topics:**
 - [ ] Pointer basics and syntax (`*`, `&`)
@@ -242,6 +242,30 @@ Welcome to the Miracle C Programming Course — custom-built for a system-savvy,
 
 ---
 
+### 🖼️ Week 8: GUI Programming with GTK (1.5 Hours)
+
+**Topics:**
+- [ ] GTK+ library setup and installation
+- [ ] Basic window creation
+- [ ] Widgets and containers
+- [ ] Event handling and callbacks
+- [ ] Layout management
+- [ ] Menu and toolbar creation
+- [ ] File dialogs and user input
+
+**Subtopics:**
+- [ ] GTK+ project structure
+- [ ] Signal and slot connections
+- [ ] Custom drawing with Cairo
+- [ ] Threading in GUI applications
+- [ ] Resource management
+- [ ] Packaging GUI applications
+
+**Mini Projects:**
+- [ ] Simple text editor
+- [ ] Calculator with GUI
+- [ ] File browser application
+- [ ] Data visualization tool
 
 
 ---
