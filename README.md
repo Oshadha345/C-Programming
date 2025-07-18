@@ -134,15 +134,29 @@ Welcome to the Miracle C Programming Course — custom-built for a system-savvy,
 ### 🧠 Week 4: Functions, Stack Frames, Recursion
 
 **Topics:**
-- Parameter passing
-- Recursion deep dive
-- Stack memory visualization
-- Inline assembly basics (for curiosity)
+
+- [ ] Function declaration and definition
+- [ ] Parameter passing (by value)
+- [ ] Return values and types
+- [ ] Function prototypes
+- [ ] Recursion concepts and implementation
+- [ ] Stack frames visualization
+- [ ] Local vs global scope in functions
+- [ ] Inline assembly basics (for curiosity)
+  
+**Subtopics:**
+- [ ] Function overloading limitations
+- [ ] Inline functions
+- [ ] Static functions
+- [ ] Variadic functions (`...`)
+- [ ] Function pointers introduction
+- [ ] Tail recursion optimization
 
 **Mini Projects:**
 - [ ] Recursive Fibonacci + memory trace
 - [ ] Call Stack Simulator
-- [ ] Function tracer
+- [ ] Function library creator
+- [ ] Mathematical functions package
 
 ---
 
