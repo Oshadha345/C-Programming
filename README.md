@@ -81,14 +81,27 @@ Welcome to the Miracle C Programming Course — custom-built for a system-savvy,
 ### 🧠 Week 2: Control Flow and Logic in Action
 
 **Topics:**
-- `if`, `else`, `switch`, `while`, `for`
-- Logic operators & expressions
-- Mapping flow control to digital logic gates
-- Conditionals in FSMs
+- [ ] Conditional statements (`if`, `else if`, `else`)
+- [ ] Switch statements and fall-through
+- [ ] Loops (`while`, `do-while`, `for`)
+- [ ] Break and continue statements
+- [ ] Logic operators (`&&`, `||`, `!`)
+- [ ] Comparison operators
+- [ ] Ternary operator (`? :`)
+
+**Subtopics:**
+- [ ] Nested conditionals
+- [ ] Loop optimization techniques
+- [ ] Short-circuit evaluation
+- [ ] Truth tables in C
+- [ ] Bitwise logical operations
+- [ ] Flow control best practices
 
 **Mini Projects:**
 - [ ] CLI Rock-Paper-Scissors with flowchart
 - [ ] Logic Gate Evaluator
+- [ ] Number guessing game
+- [ ] Simple calculator with menu
 
 ---
 
