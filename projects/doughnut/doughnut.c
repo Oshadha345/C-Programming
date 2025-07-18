@@ -111,7 +111,7 @@ int main() {
     enable_vt_mode();
     
     // Set larger console size
-    set_console_size(100, 40); // Try these dimensions
+    set_console_size(100,40); // Try these dimensions
     
     // Clear screen and hide cursor
     printf("\x1b[2J\x1b[?25l");
