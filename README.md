@@ -60,7 +60,7 @@
 </details>
 
 <details>
-<summary><strong>⚙️ Week 1: Variables, Memory, and the Hidden Machinery of C (1 Hour)</strong></summary>
+<summary><strong>⚙️ Week 1: Variables, Memory, and the Hidden Machinery of C (1 Hour)✅</strong></summary>
 
 **Topics:**
 - [x] Data types deep dive (`int`, `float`, `double`, `char`, `void`)
