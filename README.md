@@ -63,21 +63,21 @@
 <summary><strong>⚙️ Week 1: Variables, Memory, and the Hidden Machinery of C (1 Hour)</strong></summary>
 
 **Topics:**
-- [ ] Data types deep dive (`int`, `float`, `double`, `char`, `void`)
-- [ ] Type modifiers (`signed`, `unsigned`, `short`, `long`)
-- [ ] Variables as memory labels
-- [ ] Binary storage and representation
-- [ ] Stack vs Heap introduction
-- [ ] Memory layout visualization
-- [ ] Compilation steps (`gcc` flags)
+- [x] Data types deep dive (`int`, `float`, `double`, `char`, `void`)
+- [x] Type modifiers (`signed`, `unsigned`, `short`, `long`)
+- [x] Variables as memory labels
+- [x] Binary storage and representation
+- [x] Stack vs Heap introduction
+- [x] Memory layout visualization
+- [x] Compilation steps (`gcc` flags)
   
 **Subtopics:**
-- [ ] Sizeof operator and memory footprint
-- [ ] Type casting and implicit conversions
-- [ ] Constants (`const`, `#define`)
-- [ ] Variable scope (local, global, static)
-- [ ] Memory addresses and the `&` operator
-- [ ] Hexadecimal representation
+- [x] Sizeof operator and memory footprint
+- [x] Type casting and implicit conversions
+- [x] Constants (`const`, `#define`)
+- [x] Variable scope (local, global, static)
+- [x] Memory addresses and the `&` operator
+- [x] Hexadecimal representation
 - [ ] Endianness concepts
 
 
