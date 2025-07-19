@@ -1,17 +1,21 @@
-//basic window creation with gtk
-
 #include <gtk/gtk.h>
 
-// this function is called when the window is activated
-static void activate(GtkApplication* app, gpointer user_data) {
 
+static void activate(GtkApplication *app, gpointer user_data) {
     GtkWidget *window;
+    GtkWidget *button;
 
     //create a new window and associate it with the application
-
     window = gtk_application_window_new(app);
-    gtk_window_set_title(GTK_WINDOW(window),"Hello GTK");
-    gtk_window_set_default_size(GTK_WINDOW(window), 400, 300);
+
+    gtk_window_set_title(GTK_WINDOW(window), "Window with Button");
+    gtk_window_set_default_size(GTK_WINDOW(window), 400,300);
+
+    //create a button with a label
+    button = gtk_button_new_with_label("Click Me");
+
+    //set the button as the child of the window
+    gtk_window_set_child(GTK_WINDOW(window),button);
 
     //show the window
     gtk_window_present(GTK_WINDOW(window));
