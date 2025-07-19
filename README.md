@@ -78,7 +78,7 @@
 - [x] Variable scope (local, global, static)
 - [x] Memory addresses and the `&` operator
 - [x] Hexadecimal representation
-- [ ] Endianness concepts
+- [x] Endianness concepts
 
 
 **Mini Projects:**
