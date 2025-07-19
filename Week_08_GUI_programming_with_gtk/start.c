@@ -6,6 +6,7 @@
 static void activate(GtkApplication* app, gpointer user_data) {
 
     GtkWidget *window;
+    
 
     //create a new window and associate it with the application
 
