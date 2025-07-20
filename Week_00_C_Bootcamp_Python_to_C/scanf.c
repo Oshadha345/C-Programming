@@ -41,6 +41,7 @@ int main()
     char ch;
     char s[100];
     char sen[100];
+    char sentence[100];
     
     // Input a character
     printf("Input a character: ");
@@ -50,7 +51,10 @@ int main()
     printf("Input a string: ");
     scanf("%s", s);  // No & needed for arrays
     
-    
+    // Input sentence 
+    gets(sentence);  // Using gets is unsafe, but for simplicity in this example
+
+
     // Input a sentence
     printf("Input a sentence: ");
     // Clear the input buffer before fgets
@@ -73,6 +77,7 @@ int main()
     printf("%c\n", ch);
     printf("%s\n", s);
     printf("%s\n", sen);
+    puts(sentence);  // Using puts to print the sentence
     printf("%s", str1);
     free(str1);  // Don't forget to free the allocated memory
 
