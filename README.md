@@ -90,23 +90,23 @@
 </details>
 
 <details>
-<summary><strong>🔀 Week 2: Control Flow and Logic in Action (1 Hour)</strong></summary>
+<summary><strong>🔀 Week 2: Control Flow and Logic in Action (1 Hour)✅</strong></summary>
 
 **Topics:**
-- [ ] Conditional statements (`if`, `else if`, `else`)
-- [ ] `switch` statements and fall-through
-- [ ] Loops (`while`, `do-while`, `for`)
-- [ ] `break` and `continue` statements
-- [ ] Logic operators (`&&`, `||`, `!`)
-- [ ] Ternary operator (`? :`)
+- [x] Conditional statements (`if`, `else if`, `else`)
+- [x] `switch` statements and fall-through
+- [x] Loops (`while`, `do-while`, `for`)
+- [x] `break` and `continue` statements
+- [x] Logic operators (`&&`, `||`, `!`)
+- [x] Ternary operator (`? :`)
 
 **Subtopics:**
-- [ ] Nested conditionals
-- [ ] Loop optimization techniques
-- [ ] Short-circuit evaluation
-- [ ] Truth tables in C
-- [ ] Bitwise logical operations
-- [ ] Flow control best practices
+- [x] Nested conditionals
+- [x] Loop optimization techniques
+- [x] Short-circuit evaluation
+- [x] Truth tables in C
+- [x] Bitwise logical operations
+- [x] Flow control best practices
 
 **Mini Projects:**
 - [ ] CLI Rock-Paper-Scissors with flowchart
