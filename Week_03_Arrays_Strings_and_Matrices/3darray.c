@@ -8,6 +8,9 @@ int main() {
     };
 
        for (int i = 0; i < 2; i++) {
+        printf("Array %d:\n", i + 1);
+
+            //printing each layer of 3D array
            for (int j = 0; j < 3; j++) {
                for (int k = 0; k < 2; k++) {
                    printf("%d ", arr[i][j][k]);
