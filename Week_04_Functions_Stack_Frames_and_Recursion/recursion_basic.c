@@ -5,7 +5,7 @@ int recursive_function(int n) {
         return 1; //  base case
     }
     else{
-        return 1 + recursive_function(n-1); // recursive case
+        return n * recursive_function(n-1); // recursive case
     }
 }
 
