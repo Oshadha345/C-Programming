@@ -120,19 +120,19 @@
 <summary><strong>💾 Week 3: Arrays, Strings, and Matrices (1 Hour)</strong></summary>
 
 **Topics:**
-- [ ] 1D arrays declaration and initialization
-- [ ] 2D arrays and multi-dimensional arrays
+- [x] 1D arrays declaration and initialization
+- [x] 2D arrays and multi-dimensional arrays
 - [ ] String manipulation (`char[]` arrays)
 - [ ] String functions (`strlen`, `strcpy`, `strcmp`)
 - [ ] Array bounds and memory safety
 - [ ] Character arrays vs string literals
 
 **Subtopics:**
-- [ ] Array indexing and traversal
+- [x] Array indexing and traversal
 - [ ] String concatenation techniques
 - [ ] Null termination in strings
 - [ ] Array passing to functions
-- [ ] Matrix operations (addition, multiplication)
+- [x] Matrix operations (addition, multiplication)
 - [ ] Dynamic string handling
 
 
@@ -148,21 +148,21 @@
 <summary><strong>🔄 Week 4: Functions, Stack Frames, & Recursion (1 Hour)</strong></summary>
 
 **Topics:**
-- [ ] Function declaration and definition
-- [ ] Parameter passing (by value)
-- [ ] Return values and types
-- [ ] Function prototypes
-- [ ] Recursion concepts and implementation
-- [ ] Stack frames visualization
-- [ ] Local vs global scope in functions
+- [x] Function declaration and definition
+- [x] Parameter passing (by value)
+- [x] Return values and types
+- [x] Function prototypes
+- [x] Recursion concepts and implementation
+- [x] Stack frames visualization
+- [x] Local vs global scope in functions
 
 **Subtopics:**
-- [ ] Function overloading limitations
+- [x] Function overloading limitations
 - [ ] Inline functions
-- [ ] Static functions
+- [x] Static functions
 - [ ] Variadic functions (`...`)
 - [ ] Function pointers introduction
-- [ ] Tail recursion optimization
+- [x] Tail recursion optimization
 
 
 **Mini Projects:**
