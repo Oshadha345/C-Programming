@@ -13,6 +13,13 @@ int main() {
     printf("%s\n", &str[3] );  // prints "lo"
     printf("%s\n", &str[4] );  // prints "o"
     printf("%s\n", &str[5] );  // prints "" (empty string)
+    printf("%c\n", "Hello"[0]);
+    printf("%c\n", "Hello"[1]);  // prints 'e'
+    printf("%c\n", "Hello"[2]);  // prints 'l'
+    printf("%c\n", "Hello"[3]);  // prints 'l'
+    printf("%c\n", "Hello"[4]);  // prints 'o'
+    printf("%c\n", "Hello"[5]);  // prints '' (empty character)
+     
 
     return 0;
 }

@@ -117,23 +117,23 @@
 </details>
 
 <details>
-<summary><strong>💾 Week 3: Arrays, Strings, and Matrices (1 Hour)</strong></summary>
+<summary><strong>💾 Week 3: Arrays, Strings, and Matrices✅(1 Hour)</strong></summary>
 
 **Topics:**
 - [x] 1D arrays declaration and initialization
 - [x] 2D arrays and multi-dimensional arrays
-- [ ] String manipulation (`char[]` arrays)
-- [ ] String functions (`strlen`, `strcpy`, `strcmp`)
-- [ ] Array bounds and memory safety
-- [ ] Character arrays vs string literals
+- [x] String manipulation (`char[]` arrays)
+- [x] String functions (`strlen`, `strcpy`, `strcmp`)
+- [x] Array bounds and memory safety
+- [x] Character arrays vs string literals
 
 **Subtopics:**
 - [x] Array indexing and traversal
-- [ ] String concatenation techniques
-- [ ] Null termination in strings
-- [ ] Array passing to functions
+- [x] String concatenation techniques
+- [x] Null termination in strings
+- [x] Array passing to functions
 - [x] Matrix operations (addition, multiplication)
-- [ ] Dynamic string handling
+- [x] Dynamic string handling
 
 
 **Mini Projects:**
@@ -145,7 +145,7 @@
 </details>
 
 <details>
-<summary><strong>🔄 Week 4: Functions, Stack Frames, & Recursion (1 Hour)</strong></summary>
+<summary><strong>🔄 Week 4: Functions, Stack Frames, & Recursion✅(1 Hour)</strong></summary>
 
 **Topics:**
 - [x] Function declaration and definition
@@ -158,10 +158,10 @@
 
 **Subtopics:**
 - [x] Function overloading limitations
-- [ ] Inline functions
+- [x] Inline functions
 - [x] Static functions
-- [ ] Variadic functions (`...`)
-- [ ] Function pointers introduction
+- [x] Variadic functions (`...`)
+- [x] Function pointers introduction
 - [x] Tail recursion optimization
 
 
@@ -177,8 +177,8 @@
 <summary><strong>🧠 Week 5: Pointers, Dynamic Memory, & Structs (1.5 Hours)</strong></summary>
 
 **Topics:**
-- [ ] Pointer basics and syntax (`*`, `&`)
-- [ ] Pointer arithmetic
+- [x] Pointer basics and syntax (`*`, `&`)
+- [x] Pointer arithmetic
 - [ ] Dynamic memory allocation (`malloc`, `calloc`, `realloc`)
 - [ ] Memory deallocation (`free`)
 - [ ] Memory leaks and debugging
@@ -187,8 +187,8 @@
 
 **Subtopics:**
 - [ ] Null pointers and safety checks
-- [ ] Double pointers (`**`)
-- [ ] Pointer to pointer concepts
+- [x] Double pointers (`**`)
+- [x] Pointer to pointer concepts
 - [ ] Structure padding and alignment
 - [ ] Typedef for cleaner code
 - [ ] Union types
