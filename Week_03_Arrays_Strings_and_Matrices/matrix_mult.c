@@ -1,29 +1,55 @@
 #include <stdio.h>
+#define MAX 50
 
 int main() {
 
-    int arr_a[3][3] = {
-        {1,2,3},
-        {1,2,1},
-        {3,1,2}
-    };
+    //take size of the matrix a 
+    int a[MAX][MAX];
+    int arows,acolumns;
+    printf("Enter the rows and columns of matrix a: ");
+    scanf("%d %d", &arows, &acolumns);
 
-    int n_a = sizeof(arr_a) / sizeof(arr_a[0]);
+    //take size of the matrix b
+    int b[MAX][MAX];
+    int brows,bcolumns;
+    printf("\nEnter the rows and columns of matrix b: ");
+    scanf("%d %d", &brows, &bcolumns);
 
-    int arr_b[3][3] = {
-        {1,2,3},
-        {1,2,1},
-        {3,1,2}
-    };
 
-    int n_b = sizeof(arr_b) / sizeof(arr_b[0]);
+    //check if the matrices can be multiplied
+    if (acolumns != brows) {
+        printf("Matrix multiplication not possible with these dimensions.\n");
+        return 1;
+    }
 
-    int result[3][3] = {0};
+    //take input for matrix a
+    printf("\nEnter the elements of matrix a:\n");
+    for (int i = 0; i < arows; i++) {
+        for (int j = 0; j < acolumns; j++) {
+            scanf("%d", &a[i][j]);
+        }
+    }
 
-    for (int i = 0; i < 3; i++) {
-        for (int j = 0; j < 3; j++) {
-            for (int k = 0 ; k < 3; k++) {
-                result[i][j] += arr_a[i][k] * arr_b[k][j];
+    printf("\n");
+
+    //take input for matrix b
+    printf("Enter the elements of matrix b:\n");
+    for (int i = 0; i < brows; i++) {
+        for (int j = 0; j < bcolumns; j++) {
+            scanf("%d", &b[i][j]);
+        }
+    }
+
+    printf("\n");
+
+
+    int result[MAX][MAX] = {0};
+
+    //matrix multiplication
+    for (int i = 0; i < arows; i++) {
+        for (int j = 0; j < bcolumns; j++) {
+            for (int k = 0 ; k < acolumns ; k++) {
+                result[i][j] += a[i][k] * b[k][j];
             }
         }
     }
